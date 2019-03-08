@@ -1,7 +1,6 @@
 const path = require('path');
 const fs = require('fs');
 
-const rimraf = require('rimraf');
 const DOMParser = require('xmldom').DOMParser;
 const camelCase = require('camelcase');
 const prettier = require('prettier');
@@ -10,8 +9,6 @@ const feather = require('feather-icons');
 
 const reservedNames = ['delete', 'package'];
 let iconsFile = '';
-
-rimraf.sync(path.join(__dirname, 'index.ts'));
 
 append(readFile(path.join(__dirname, 'types.ts')));
 

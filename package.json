@@ -21,7 +21,7 @@
     "xmldom": "^0.1.27"
   },
   "scripts": {
-    "clear": "rimraf build",
+    "clear": "rimraf build src/index.ts",
     "prebuild": "npm run clear",
     "build": "node src/build && tsc",
     "prepublish": "npm run build"
