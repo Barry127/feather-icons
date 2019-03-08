@@ -1,6 +1,6 @@
 {
   "name": "@barry127/feather-icons",
-  "version": "0.0.2",
+  "version": "4.19.0",
   "description": "Feather Icons for React",
   "main": "build/index.js",
   "author": "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
