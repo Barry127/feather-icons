@@ -1,6 +1,6 @@
 {
   "name": "@barry127/feather-icons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Feather Icons for React",
   "main": "build/index.js",
   "author": "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
@@ -8,9 +8,10 @@
   "files": [
     "/build"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "*"
+  },
   "devDependencies": {
-    "@types/react": "^16.8.7",
     "camelcase": "^5.2.0",
     "feather-icons": "^4.19.0",
     "lodash": "^4.17.11",
