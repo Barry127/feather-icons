@@ -1,0 +1,38 @@
+{
+  "name": "@barry127/feather-icons",
+  "version": "0.0.1",
+  "description": "Feather Icons for React",
+  "main": "build/index.js",
+  "author": "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.8.7",
+    "camelcase": "^5.2.0",
+    "feather-icons": "^4.19.0",
+    "lodash": "^4.17.11",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3333",
+    "xmldom": "^0.1.27"
+  },
+  "scripts": {
+    "clear": "rimraf build",
+    "prebuild": "npm run clear",
+    "build": "node src/build && tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barry127/feather-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "feather",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/Barry127/feather-icons/issues"
+  },
+  "homepage": "https://github.com/Barry127/feather-icons#readme"
+}
