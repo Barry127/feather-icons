@@ -5,6 +5,9 @@
   "main": "build/index.js",
   "author": "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
   "license": "MIT",
+  "files": [
+    "/build"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@types/react": "^16.8.7",
